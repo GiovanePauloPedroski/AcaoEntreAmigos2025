@@ -133,8 +133,8 @@
         const normalize = str => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
 
         function loadCSV() {
-            const bancoPath = 'https://raw.githubusercontent.com/GiovanePauloPedroski/consulta/main/BancoCARNEPARCELA.csv';
-            const bancoPagoPath = 'https://raw.githubusercontent.com/GiovanePauloPedroski/consulta/main/BancoPAGO.csv';
+            const bancoPath = 'https://raw.githubusercontent.com/GiovanePauloPedroski/AcaoEntreAmigos2025/main/BancoCARNEPARCELA.csv';
+            const bancoPagoPath = 'https://raw.githubusercontent.com/GiovanePauloPedroski/AcaoEntreAmigos2025/main/BancoPAGO.csv';
 
             fetch(bancoPath)
                 .then(res => res.text())
@@ -237,3 +237,4 @@
 </body>
 
 </html>
+
